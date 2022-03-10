@@ -17,7 +17,7 @@ When running this project the default host will be  **http://localhost:8080**
 ### *Example if no bad word is used:*
 
 POST
-<br />**localhost:8080/words/v1/find**
+<br />**localhost:8080/badwords/words/v1/find**
 
 Request body:
 <br />**{ "requestMessage": "I like you" }**
@@ -31,7 +31,7 @@ Response body:
 ### *Example if bad word is used:*
 
 POST
-<br />**localhost:8080/words/v1/find**
+<br />**localhost:8080/badwords/words/v1/find**
 
 Request body:
 <br />**{ "requestMessage": "Me ?"}**
